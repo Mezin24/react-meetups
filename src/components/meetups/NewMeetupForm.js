@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import Card from '../UI/Card';
 import classes from './NewMeetupForm.module.css';
 
-const NewMeetupForm = () => {
+const NewMeetupForm = ({ onAddNewMeetup }) => {
   const titleRef = useRef();
   const imageRef = useRef();
   const addressRef = useRef();
@@ -22,7 +22,12 @@ const NewMeetupForm = () => {
       description,
     };
 
-    console.log(newMeetup);
+    onAddNewMeetup(newMeetup);
+
+    titleRef.current.value = '';
+    titleRef.current.value = '';
+    titleRef.current.value = '';
+    titleRef.current.value = '';
   };
 
   return (
