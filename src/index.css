@@ -28,4 +28,15 @@ h2 {
   border-radius: 50%;
   border-top: 5px solid grey;
   border-left: 5px solid grey;
+  animation: rotation 1s infinite linear;
+  animation-delay: 3s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

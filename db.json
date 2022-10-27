@@ -10,9 +10,16 @@
     {
       "id": "m2",
       "title": "This is a second meetup",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg",
+      "image": "https://plus.unsplash.com/premium_photo-1658527202479-07030551e2d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
       "address": "Meetupstreet 5, 12345 Meetup City",
       "description": "This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!"
+    },
+    {
+      "title": "New York",
+      "image": "https://images.unsplash.com/photo-1571951103752-53c15cad28e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80",
+      "address": "5 th avenu",
+      "description": "walk around the city",
+      "id": "pR_W_yG"
     }
   ]
 }

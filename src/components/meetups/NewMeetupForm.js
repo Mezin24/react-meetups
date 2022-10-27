@@ -11,9 +11,9 @@ const NewMeetupForm = ({ onAddNewMeetup }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const title = titleRef.current.value;
-    const image = titleRef.current.value;
-    const address = titleRef.current.value;
-    const description = titleRef.current.value;
+    const image = imageRef.current.value;
+    const address = addressRef.current.value;
+    const description = descriptionRef.current.value;
 
     const newMeetup = {
       title,
@@ -25,9 +25,9 @@ const NewMeetupForm = ({ onAddNewMeetup }) => {
     onAddNewMeetup(newMeetup);
 
     titleRef.current.value = '';
-    titleRef.current.value = '';
-    titleRef.current.value = '';
-    titleRef.current.value = '';
+    imageRef.current.value = '';
+    addressRef.current.value = '';
+    descriptionRef.current.value = '';
   };
 
   return (

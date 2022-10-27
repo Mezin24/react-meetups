@@ -15,7 +15,7 @@ const AllMeetups = () => {
   useEffect(() => {
     setloading(true);
     fetchMeetups().then((data) => {
-      // setloading(false);
+      setloading(false);
       setMeetups(data);
     });
   }, []);
